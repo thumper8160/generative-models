@@ -11,3 +11,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Stability-AI/generative-models",
 )
+# install required packages from pypi
+python3 -m venv .pt1
+source .pt1/bin/activate
+pip3 install wheel
+pip3 install -r requirements_pt13.txt
